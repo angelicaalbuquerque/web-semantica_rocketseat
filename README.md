@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a>
-  <a href="#-Notas">Notas de aula</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Notas-de-aula">Notas de aula</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Entre-em-contato">Contato</a>
 </p>
 
