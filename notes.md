@@ -71,6 +71,28 @@ Leitores de tela usam o nav para tomar decisões na página.
 
 #### Main
 
+Não possuem atributos específicos, só globais.
+
+Tag para conteúdo único da página, aplicado diretamente dentro do body, uma vez por página.
+
+Entedemos que conteúdo principal aquele que é relacionado diretamente com o tópico central da página ou com a funcionalidade central de sua aplicação.
+
+Dentro de main, não é colocado, por exemplo: blocos de publicidade e menu.
+
+```html
+<body>
+  <main>
+    <h1>Sucos Detox</h1>
+    <p>Página de sucos Detox</p>
+
+    <article>
+      <h2>Suco de Abacaxi</h2>
+      <p>Muito fácil de fazer esse suco detox de abacaxi.</p>
+    </article>
+  </main>
+</body>
+```
+
 #### Article
 
 #### Aside
@@ -80,7 +102,3 @@ Leitores de tela usam o nav para tomar decisões na página.
 #### Section
 
 ### Elementos genéricos não-semânticos
-
-```html
-
-```
