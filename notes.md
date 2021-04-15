@@ -57,6 +57,18 @@ Pode ser usar também em outros elementos semânticos, como article e section. N
 
 #### Nav
 
+Não possuem atributos específicos, só globais.
+
+Serve para representar uma seção da página que vai apontar para outras páginas ou áreas da nossa página.
+
+Geralmente, vêm dentro do header, sendo a nav principal. Mas é importante saber que nem todos os links da página devem estar dentro da tag nav, que é mais destinada para links importantes.
+
+Por exemplo, no "sitemap", geralmente alocado ao footer, não é preciso inserir os links dentro da Nav.
+
+A nav sempre vai representar algo muito especial do site, então é importante saber onde utilizá-la.
+
+Leitores de tela usam o nav para tomar decisões na página.
+
 #### Main
 
 #### Article
