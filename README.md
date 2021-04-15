@@ -50,7 +50,7 @@ Lecionado por Mayk Brito, o curso mostra que a web é um espaço para todos e, p
 
 ## 📝 Notas de aula
 
-Anotações das aulas estão disponíveis em breve.
+Anotações das aulas estão disponíveis <a href="https://github.com/angelicaalbuquerque/web-semantica_rocketseat/blob/main/notes.md" target="_blank">aqui</a>.
 
 ## 📬 Entre em contato!
 
