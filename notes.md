@@ -108,8 +108,88 @@ Podem se repetir pela página e representam uma composição independente do doc
 
 #### Aside
 
+Ajuda a descrever conteúdos levemente relacionados ao conteúdo principal.
+
+Por exemplo:
+
+- explicações;
+- glossários;
+- links extras;
+- biografia do autor;
+- informações de perfil.
+
+Aside não tem a ver com o sidebar.
+
 #### Footer
+
+Geralmente, fica no final da página e possui:
+
+- informações do autor;
+- copyright;
+- contato;
+- sitemap;
+- voltar ao topo.
+
+Seus atributos são globais.
 
 #### Section
 
+Serve para colocar seções na página e, geralmente, a boa prática é que a section possua um título.
+
+Alguns exemplos:
+
+```html
+<section>
+  <h2>Contato</h2>
+  <p>Fale conosco.</p>
+</section>
+```
+
+```html
+<article>
+  <h2>Receita 1</h2>
+  <p>Confira como fazer a receita.</p>
+
+  <section>
+    <h3>Modo de preparo</h3>
+    <p>Descrevendo o modo de preparo.</p>
+  </section>
+</article>
+```
+
+```html
+<main>
+  <h1>Receita 1</h1>
+  <p>Confira como fazer a receita.</p>
+
+  <section>
+    <h2>Modo de preparo</h2>
+    <p>Descrevendo o modo de preparo.</p>
+  </section>
+</main>
+```
+
+Antigamente, usava-se `div` para fazer uma seção, mas, semanticamente, é melhor utilizar a tag `section`.
+
 ### Elementos genéricos não-semânticos
+
+Escrever HTML semântico é um processo que leva tempo. Temos dois elementos que se aplicam para uso genérico, enquanto não conseguimos encontrar elementos semânticos para texto e/ou bloco.
+
+Em ambas as situações, usam-se atributos globais, como `id` e `class`, para entregar maior significado.
+
+`<div></div>`: usado se não conseguir achar elemento de bloco semântico. <br><br>
+A ideia da section, por exemplo, é ter um contexto relacionado à página e não um contexto global do site inteiro. Um carrinho de compras, por exemplo, tem um contexto global, do site inteiro, e não somente a uma página. Nesse caso, aplicaríamos uma `div` com uma classe.<br>
+
+```html
+<div class="cart">
+  <h2>Carrinho de compras</h2>
+</div>
+```
+
+Mas temos que ter atenção com a `div` para não usá-la em excesso, para que possamos deixar o HTML semântico.
+
+`<span></span>`: usado se não conseguir achar elemento de texto semântico. Substitui alguma marcação em um texto. <br>
+
+```html
+<h1>Título <span class="destaque">destacado</span></h1>
+```
