@@ -86,14 +86,25 @@ Dentro de main, não é colocado, por exemplo: blocos de publicidade e menu.
     <p>Página de sucos Detox</p>
 
     <article>
-      <h2>Suco de Abacaxi</h2>
-      <p>Muito fácil de fazer esse suco detox de abacaxi.</p>
+      <h2>Suco de Abacaxi com Gengibre</h2>
+      <p>Muito fácil de fazer esse suco detox de abacaxi com gengibre.</p>
+    </article>
+
+    <article>
+      <h2>Suco de Maçã com Côco</h2>
+      <p>Muito fácil de fazer esse suco detox de maçã com côco.</p>
     </article>
   </main>
 </body>
 ```
 
 #### Article
+
+Não possuem atributos específicos, só globais.
+
+Como visto acima, o article vai construir um bloco de conteúdo que são relacionados.
+
+Podem se repetir pela página e representam uma composição independente do documento.
 
 #### Aside
 
