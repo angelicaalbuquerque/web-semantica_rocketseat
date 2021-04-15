@@ -14,7 +14,38 @@ Além de ajudar na parte de acessibilidade, os motores de busca dão preferênci
 
 ### Importância das tags HTML5
 
+A tags irão ajudar a criar um HTML semântico, pois algumas tags têm significados específicos e orientações claras sobre onde devem ficar na página e o motivo dela existir.
+
+Exemplo:
+
+```html
+<p>Todo ponto de vista é a vista de um ponto. - Leonardo Boff</p>
+```
+
+Melhor semântica:
+
+```html
+<blockquote>
+  Todo ponto de vista é a vista de um ponto.
+  <cite>- Leonardo Boff</cite>
+</blockquote>
+```
+
+Dessa forma, ao abrir a estrutura da página para pesquisar onde está tal citação, será encontrada com muito mais facilidade, fora as vantagens de ter o HTML mais semântico (auxílio no CSS e JavaScript, acessibilidade, SEO...).
+
+#### Nas é possível fazer tudo só com `<p>`?
+
+Sim, mas o foco do HTML5 é melhorar a semântica. E conforme for estudando, tentar ao máximo buscar refras e padrões para aprimorar a estrutura do documento.
+
 ### Seções comuns
+
+São elas:
+
+- cabeçalho `<header>`;
+- navegação `<nav>`;
+- conteúdo principal `<main>`;
+- barra lateral `<aside>`;
+- rodapé `<footer>`.
 
 #### Header
 
@@ -31,3 +62,7 @@ Além de ajudar na parte de acessibilidade, os motores de busca dão preferênci
 #### Section
 
 ### Elementos genéricos não-semânticos
+
+```html
+
+```
