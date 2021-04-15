@@ -49,6 +49,12 @@ São elas:
 
 #### Header
 
+Elemento estrutural e semântico, o header não possui atributos específicos.
+
+É, geralmente, utilizado no início da página, sendo assim visto como global.
+
+Pode ser usar também em outros elementos semânticos, como article e section. Não faz sentido usar header dentro de header e header dentro de footer, pois perde-se a semântica dele.
+
 #### Nav
 
 #### Main
